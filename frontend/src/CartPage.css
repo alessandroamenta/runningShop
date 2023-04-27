@@ -1,0 +1,20 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cartItemImage {
+  width: 80px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.cartItemInfo {
+  flex-grow: 1;
+}

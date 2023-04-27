@@ -1,0 +1,11 @@
+.coolImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.coolImage {
+  width: 100%;
+  max-width: 1200px;
+  object-fit: cover;
+  height: 300px;
+}

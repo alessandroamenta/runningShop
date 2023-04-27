@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #1e1e1e;
+  height: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar__left img {
+  cursor: pointer;
+}
+
+.navbar__left a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__left a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__left span {
+  margin-left: 8px;
+  font-size: 24px;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__right__link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.navbar__right__link:hover {
+  color: #d9d9d9;
+}
+
+.navbar__right__link:hover .hoverCard {
+  display: block;
+}
+
+.hoverCard {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.navbar__right__link .logoutBtn,
+.navbar__right__link .loginBtn {
+  background-color: #f44336;
+  border: 2px solid #fff;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar__right__link .logoutBtn:hover,
+.navbar__right__link .loginBtn:hover {
+  background-color: #d32f2f;
+  border-color: #d9d9d9;
+  color: #d9d9d9;
+}
+
+.navbar__right__link .shoppingCart {
+  font-size: 24px;
+}
