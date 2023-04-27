@@ -15,6 +15,6 @@ iRun is an ecommerce web application built for running enthusiasts like me who a
 - Users can view their past orders
 
 ## Screenshot
-![iRun App Screenshot](./iRun.png.png)
+![iRun App Screenshot](./iRun.png)
 
 *Note: Replace 'screenshot.png' with the actual file path of your application's screenshot.*
